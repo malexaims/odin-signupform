@@ -1,0 +1,58 @@
+html, body{
+    height: 100%;
+    margin: 0%;
+    background-color: black;
+}
+
+h1{
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 100px;
+    background-color: white;
+    margin: 100px;
+}
+
+.eagle{
+    width: 30%;
+    height: 100%;
+}
+
+form {
+    margin-left: 20px;
+    display: flex; 
+    flex-direction: column;
+}
+
+fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 15px; /* Space between grid items */
+    padding: 20px; /* Padding inside the fieldset */
+}
+
+.create-account-btn{
+    background-color: darkgreen; 
+    color: white;
+    margin-top: 20px;
+}
+
+.text-input {
+    flex: 1 0 calc(100% - 20px); /* Grow and set width to about 50% minus margins */
+    margin: 0px; /* Add margin around each item */
+    background-color: #f0f0f0; /* Background color for visibility */
+    padding: 10px; /* Add padding inside the item */
+    box-sizing: border-box; /* Include padding and borders in total width/height */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
